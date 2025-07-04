@@ -97,12 +97,16 @@ section h1 {
   margin-bottom: 30px; /* Espaçamento abaixo do título */
 }
 
+section p {
+  text-align: justify;
+}
 
 /* Estilos específicos para as listas de formação */
 #formacao ul {
   list-style: disc; /* Marcadores de disco para a lista principal */
   margin-left: 20px; /* Recuo para a lista principal */
   margin-bottom: 20px; /* Espaçamento abaixo da lista principal */
+  
 }
 
 #formacao ul ul {
@@ -110,6 +114,7 @@ section h1 {
   list-style: circle; /* Marcadores de círculo para a lista aninhada */
   margin-top: 5px; /* Espaçamento superior */
   margin-bottom: 10px; /* Espaçamento inferior */
+    text-align: justify;
 }
 
 /* Estilo para o nome da instituição */
